@@ -13,13 +13,13 @@ import android.widget.ImageView;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.developer_headlines.R;
-import com.example.developer_headlines.view.ILauncherView;
+import com.example.developer_headlines.iview.ILauncherView;
 
 /**
- * ViewPager适配器
- * @author ansen
- * @create time 2016-04-15
- */
+ * @Author liuyuhan
+ * @Description ViewPager适配器
+ * @Date 17:35 2024/4/28
+ **/
 public class LauncherPagerAdapter extends PagerAdapter implements OnClickListener{
 	private ILauncherView launcherView;
 	

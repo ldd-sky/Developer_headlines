@@ -16,13 +16,13 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.developer_headlines.R;
 import com.example.developer_headlines.adapter.LauncherPagerAdapter;
-import com.example.developer_headlines.view.ILauncherView;
+import com.example.developer_headlines.iview.ILauncherView;
 
 /**
- * 第一次启动页面
- * @author Ansen
- * @create time 2016-04-15
- */
+ * @Author liuyuhan
+ * @Description 第一次启动页面
+ * @Date 18:41 2024/4/28
+ **/
 @SuppressLint("ResourceAsColor")
 public class LauncherActivity extends FragmentActivity implements ILauncherView {
 	private ViewPager viewpagerLauncher;
@@ -81,10 +81,7 @@ public class LauncherActivity extends FragmentActivity implements ILauncherView 
 		}
 	};
 
-	/**
-	 * 改变点点点的切换效果
-	 * @param selectItems
-	 */
+	// 改变选择点的切换效果
 	private void setImageBackground(int selectItems) {
 		for (int i = 0; i < tips.length; i++) {
 			if (i == selectItems) {

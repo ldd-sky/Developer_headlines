@@ -10,7 +10,13 @@ import androidx.fragment.app.Fragment;
 
 import com.example.developer_headlines.R;
 
-
+/**
+ * @Author liuyuhan
+ * @Description 点击左测栏后的页面（这里为简单的更改页面的文字）
+ * @Date 18:42 2024/4/28
+ * @Param
+ * @return
+ **/
 public class ContentFragment extends Fragment {
     private TextView tvContent;
 
