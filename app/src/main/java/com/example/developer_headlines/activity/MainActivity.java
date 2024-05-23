@@ -25,8 +25,11 @@ import com.example.developer_headlines.fragment.ShareFragment;
  **/
 public class MainActivity  extends FragmentActivity {
 	private DrawerLayout mDrawerLayout;
+
 	private RelativeLayout rlHome, rlGift, rlShare;
+	// 默认首页
 	private int currentSelectItem = R.id.rl_home;
+
 	private MainFragment mainFragment;
 	private ShareFragment shareFragment;
 	private GiftFragment giftFragment;

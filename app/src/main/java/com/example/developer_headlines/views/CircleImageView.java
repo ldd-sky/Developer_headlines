@@ -1,4 +1,4 @@
-package com.example.developer_headlines.view;
+package com.example.developer_headlines.views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
